@@ -1,0 +1,190 @@
+body {
+  background-color: rgb(15,57,49,255);
+}
+
+h1 {
+  font-family: verdana;
+  color: rgb(234,205,196);
+  font-size: 55px;
+  text-align: center;
+}
+
+h2 {
+  font-family: verdana;
+  color: rgb(234,205,196);
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  font-family: verdana;
+  color: rgb(234,205,196);
+  font-size: 25px;
+  text-align: center;
+}
+
+h4 {
+  font-family: verdana;
+  color: rgb(234,205,196);
+  font-size: 15px;
+}
+
+p {
+  font-family: verdana;
+  color: rgb(234,205,196);
+  font-size: 20px;
+  text-align: center;
+}
+
+p1 {
+  font-family: verdana;
+  color: rgb(234,205,196);
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* Liste */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  list-style-type: disc;
+  color:rgb(234,205,196);
+  margin-right: 20px;
+  text-align: left;
+  margin-inline-start: 15px;
+}
+
+li span {
+  position: relative;
+  left: 20px;
+}
+
+/* Navigationsbar - horisontal */
+nav {
+  background-color: #0f3931;
+  padding: 10px;
+  text-align: right;
+}
+
+nav ul {
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  font-family: verdana;
+  font-size: 20px;
+  color: #eacdc4;
+  text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  color: #13493f;
+}
+
+address {
+  display: block;
+}
+
+/* sidebar */
+#sidebar
+{
+  width:450px;
+  min-height:600px;
+  margin-left: 25px;
+  float:left;
+  background:#0f3931
+} 
+
+#main
+{
+  width:750px;
+  min-height:600px;
+  margin-right: 100px;
+  margin-top: 50px;
+  float:right;
+  background:#0f3931
+} 
+
+/* billeder */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  background-color: #0f3931;
+  width: 50%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #eacdc4; /* Gray border */
+  border-radius: 0px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  margin-left: auto;
+  margin-right: auto;
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color
+
+/* Dropdown navigation */
+nav ul li {
+  position: relative;
+}
+
+nav ul li ul.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #985f9d;
+  min-width: 160px;
+  z-index: 1;
+}
+
+nav ul li:hover > ul.dropdown {
+  display: block;
+}
+
+
+
+
+/* unvisited link */
+a:link {
+  color: #eacdc4;
+}
+
+/* visited link */
+a:visited {
+  color: #eacdc4;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ffff7e;
+}
+
+/* selected link */
+a:active {
+  color: #eacdc4;
+}
+
+
+iframe {
+  border: 1px solid black;
+  width: 100%; /* takes precedence over the width set with the HTML width attribute */
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
